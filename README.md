@@ -62,6 +62,99 @@ To assign a role to a command, use the `/assign_role` command. For example, to a
 
 This ensures that only users with the "Admin" role can execute the `/delete_place` command.
 
+To ensure your Discord bot works properly, follow these steps on the Discord Developer Portal:
+
+### Setting Up the Bot on the Discord Developer Portal
+
+1. **Create a New Application:**
+   - Go to the [Discord Developer Portal](https://discord.com/developers/applications).
+   - Click on "New Application".
+   - Give your application a name and click "Create".
+
+2. **Create a Bot User:**
+   - In your application's settings, go to the "Bot" tab.
+   - Click "Add Bot" and confirm by clicking "Yes, do it!".
+
+3. **Configure Bot Permissions:**
+   - In the "OAuth2" tab, go to the "OAuth2 URL Generator" section.
+   - Select the following scopes and permissions as shown in the screenshot:
+     - **Scopes:**
+       - `bot`
+       - `applications.commands`
+     - **Bot Permissions:**
+       - `Administrator` (Note: This gives the bot full access. If you want to limit permissions, you can choose specific ones based on your needs.)
+
+4. **Copy the OAuth2 URL:**
+   - After selecting the scopes and permissions, a URL will be generated at the bottom of the OAuth2 URL Generator.
+   - Copy this URL and use it to invite the bot to your server.
+
+### Example of OAuth2 URL Generator Configuration
+
+**Scopes:**
+- `bot`
+- `applications.commands`
+
+**Bot Permissions:**
+- `Administrator`
+
+![OAuth2 URL Generator Configuration](https://docs.github.com/assets/images/help/repository/invite-collaborator.png)
+
+### Invite the Bot to Your Server
+
+1. **Paste the OAuth2 URL in your browser:**
+   - This will bring up a dialog to select a server to invite the bot to.
+   - Choose the server and authorize the bot.
+
+2. **Verify Bot Presence:**
+   - Check your server to ensure the bot has joined and is online.
+
+## Setting Up the Bot on the Discord Developer Portal
+
+To ensure your bot works properly, follow these steps on the Discord Developer Portal:
+
+1. **Create a New Application:**
+   - Go to the [Discord Developer Portal](https://discord.com/developers/applications).
+   - Click on "New Application".
+   - Give your application a name and click "Create".
+
+2. **Create a Bot User:**
+   - In your application's settings, go to the "Bot" tab.
+   - Click "Add Bot" and confirm by clicking "Yes, do it!".
+
+3. **Configure Bot Permissions:**
+   - In the "OAuth2" tab, go to the "OAuth2 URL Generator" section.
+   - Select the following scopes and permissions:
+     - **Scopes:**
+       - `bot`
+       - `applications.commands`
+     - **Bot Permissions:**
+       - `Administrator`
+   
+4. **Copy the OAuth2 URL:**
+   - After selecting the scopes and permissions, a URL will be generated at the bottom of the OAuth2 URL Generator.
+   - Copy this URL and use it to invite the bot to your server.
+
+### Example of OAuth2 URL Generator Configuration
+
+**Scopes:**
+- `bot`
+- `applications.commands`
+
+**Bot Permissions:**
+- `Administrator`
+
+![OAuth2 URL Generator Configuration](URL_TO_YOUR_IMAGE)
+
+5. **Invite the Bot to Your Server:**
+   - Paste the OAuth2 URL in your browser.
+   - Select the server and authorize the bot.
+
+6. **Verify Bot Presence:**
+   - Check your server to ensure the bot has joined and is online.
+```
+
+By including these steps in your `README.md`, users will have clear instructions on how to set up the bot correctly.
+
 ## Contributions
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure that your code follows best practices and is well-documented.
