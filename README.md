@@ -151,9 +151,6 @@ To ensure your bot works properly, follow these steps on the Discord Developer P
 
 6. **Verify Bot Presence:**
    - Check your server to ensure the bot has joined and is online.
-```
-
-By including these steps in your `README.md`, users will have clear instructions on how to set up the bot correctly.
 
 ## Contributions
 
@@ -163,7 +160,7 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 This project is licensed under the MIT License.
 
-```
+
 
 ### Explanation
 
